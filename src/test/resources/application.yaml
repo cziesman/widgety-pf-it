@@ -1,0 +1,10 @@
+webdriver:
+  path: geckodriver_mac_arm64/geckodriver
+  binary: /Applications/Firefox.app/Contents/MacOS/firefox
+  headless: true
+  timeout: 5
+
+widget:
+  baseurl: http://127.0.0.1:8080/widgets.faces
+  rest:
+    url: http://127.0.0.1:8080/api/widget
